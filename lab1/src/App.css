@@ -8,7 +8,6 @@
   margin: auto;
   padding: 0;
     width: 80%;  
-    background-color: #F8ECD1;
 }
  
 .navbar{
@@ -22,9 +21,8 @@
     padding: 1rem 2.5rem;
     margin-bottom: 3rem;
 }
-.btn{
-    color: #F8ECD1;
-}
+
+
 .item{
     margin: 0;
 }

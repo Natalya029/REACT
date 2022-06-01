@@ -16,7 +16,7 @@ setIsLoggedIn(state => !state)
        
         <h2>Natalya's Library</h2> 
         
-        { isLoggedIn ? <p className='item'>Natalya</p> : <button className='nav btn' onClick={toggleLogin}>Login</button>}
+        { isLoggedIn ? <p className='item'>Natalya</p> : <button className='btn btn-link' onClick={toggleLogin}>Login</button>}
         
         
         </div>
