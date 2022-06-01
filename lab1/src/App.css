@@ -10,19 +10,3 @@
     width: 80%;  
 }
  
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #AC7D88;
-    color: #F8ECD1;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Lobster', cursive;
-    padding: 1rem 2.5rem;
-    margin-bottom: 3rem;
-}
-
-
-.item{
-    margin: 0;
-}
