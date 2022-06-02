@@ -2,7 +2,7 @@
 import { useState} from 'react'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import BooksCard from './components/BooksCard';
+import BookList from './components/BookList';
 import Navbar from './components/Navbar';
 
 
@@ -41,12 +41,9 @@ const [books] = useState([
       <div className="cont">
        <Navbar book={books.book}/>
        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-         { books.map(book => (
-          <BooksCard key={book.id} title={book.title} img={book.img} body={book.body} />
-         )) } 
+        <BookList books={books} />
+      </div>
         </div>
-       </div>  
-         
       
 
  )
